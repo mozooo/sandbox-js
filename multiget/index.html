@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+    <head>
+        <title>HTTP Request Tester</title>
+        <script src="./javascripts/jquery-1.11.1.min.js"></script>
+        <script src="./javascripts/multipost.js"></script>
+    </head>
+    <body>
+
+        <form>
+            <input type="text" id="input-url" value="http://www7191ui.sakura.ne.jp/info.php" size="60" /><br />
+            <span>thread:</span><input type="text" id="input-thread" value="3" />
+            <span>count:</span><input type="text" id="input-count" value="3" />
+            <input type="button" id="send-button" value="実行" />
+            <table id="result-list">
+                <tbody></tbody>
+            </table>
+        </form>
+    </body>
+</html>
